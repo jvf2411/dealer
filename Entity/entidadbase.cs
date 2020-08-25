@@ -9,10 +9,10 @@ namespace dealer1.Entity
 {
    public class entidadbase
     {
-        [StringLength(2)]
-        public string Estatus { get; set; }
 
-        public DateTime? FechaRegistro { get; set; }
+        public bool Borrado { get; set; } = false;
+
+        public DateTime? FechaRegistro { get; set; } = DateTime.Now;
 
         public DateTime? FechaModificacion { get; set; }
 

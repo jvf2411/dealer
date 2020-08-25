@@ -25,3 +25,10 @@ C:\Users\juan.vasquez\Downloads\dealer1\obj\Debug\dealer1.csproj.GenerateResourc
 C:\Users\juan.vasquez\Downloads\dealer1\obj\Debug\dealer1.csproj.CopyComplete
 C:\Users\juan.vasquez\Downloads\dealer1\obj\Debug\dealer1.exe
 C:\Users\juan.vasquez\Downloads\dealer1\obj\Debug\dealer1.pdb
+C:\Users\juan.vasquez\Downloads\dealer1\obj\Debug\dealer1.Migrations.inicio1.resources
+C:\Users\juan.vasquez\Downloads\dealer1\obj\Debug\dealer1.Formulario.loginre.resources
+C:\Users\juan.vasquez\Downloads\dealer1\obj\Debug\dealer1.Migrations.inicio2.resources
+C:\Users\juan.vasquez\Downloads\dealer1\obj\Debug\dealer1.Formulario.clientereg.resources
+C:\Users\juan.vasquez\Downloads\dealer1\obj\Debug\dealer1.Formulario.modeloreg.resources
+C:\Users\juan.vasquez\Downloads\dealer1\obj\Debug\dealer1.Formulario.vehiculoreg.resources
+C:\Users\juan.vasquez\Downloads\dealer1\obj\Debug\dealer1.Formulario.ventareg.resources

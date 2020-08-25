@@ -9,7 +9,11 @@ namespace dealer1.Entity
 {
     [Table("Modelo")]
     public partial class Modelo : entidadbase
-    {
+    {   
+        public Modelo()
+        {
+            this.Vehiculo = new HashSet<Vehiculo>();
+        }
 
         [Key]
         [Required]

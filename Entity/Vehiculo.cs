@@ -12,6 +12,10 @@ namespace dealer1.Entity
     [Table("Vehiculo")]
     public partial class Vehiculo : entidadbase
     {
+        public Vehiculo()
+        {
+            this.Venta = new HashSet<Venta>();
+        }
         [Key]
         public int VehiculoId { get; set; }
 

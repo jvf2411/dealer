@@ -57,9 +57,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\dealercontext.cs" />
+    <Compile Include="Datamodel\dealerrepos.cs" />
+    <Compile Include="Datamodel\idealer.cs" />
     <Compile Include="Entity\Cliente.cs" />
     <Compile Include="Entity\entidadbase.cs" />
     <Compile Include="Entity\Modelo.cs" />
+    <Compile Include="Entity\Operationresult.cs" />
     <Compile Include="Entity\usuario.cs" />
     <Compile Include="Entity\Vehiculo.cs" />
     <Compile Include="Entity\Venta.cs" />
@@ -69,15 +72,74 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulario\clientereg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario\clientereg.Designer.cs">
+      <DependentUpon>clientereg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario\loginre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario\loginre.Designer.cs">
+      <DependentUpon>loginre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario\modeloreg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario\modeloreg.Designer.cs">
+      <DependentUpon>modeloreg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario\vehiculoreg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario\vehiculoreg.Designer.cs">
+      <DependentUpon>vehiculoreg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario\ventareg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario\ventareg.Designer.cs">
+      <DependentUpon>ventareg.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\202008200318471_inicio.cs" />
     <Compile Include="Migrations\202008200318471_inicio.designer.cs">
       <DependentUpon>202008200318471_inicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202008231730583_inicio1.cs" />
+    <Compile Include="Migrations\202008231730583_inicio1.designer.cs">
+      <DependentUpon>202008231730583_inicio1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202008231810212_inicio2.cs" />
+    <Compile Include="Migrations\202008231810212_inicio2.designer.cs">
+      <DependentUpon>202008231810212_inicio2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formulario\clientereg.resx">
+      <DependentUpon>clientereg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario\loginre.resx">
+      <DependentUpon>loginre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario\modeloreg.resx">
+      <DependentUpon>modeloreg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario\vehiculoreg.resx">
+      <DependentUpon>vehiculoreg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario\ventareg.resx">
+      <DependentUpon>ventareg.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202008200318471_inicio.resx">
       <DependentUpon>202008200318471_inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202008231730583_inicio1.resx">
+      <DependentUpon>202008231730583_inicio1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202008231810212_inicio2.resx">
+      <DependentUpon>202008231810212_inicio2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -102,9 +164,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Datamodel\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
